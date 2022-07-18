@@ -29,6 +29,7 @@ module.exports = {
         420: '420px',
         510: '510px',
         600: '600px',
+        650: '650px',
         685: '685px',
         800: '800px',
         '90vh': '90vh',
@@ -42,6 +43,7 @@ module.exports = {
         textColor: '#515151',
         activeText: '#D6230A',
         gradientBg: 'rgba(116, 249, 105,0.4)',
+        cardOverlay: 'rgba(256,256,256,0.4)',
         whiteAlpha: 'rgba(255,255,255,0.2)',
         cardColor: '#f5f5f5',
         cartBg: '#282a2c',
@@ -50,6 +52,7 @@ module.exports = {
         headingColor: '#2e2e2e',
         cartNumBg : '#e80013',
         primary : '#f5f3f3',
+        lighttextGray: '#9ca0ab',
 
       },
       screens: {
