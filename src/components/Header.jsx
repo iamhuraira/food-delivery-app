@@ -52,7 +52,7 @@ const Header = () => {
             initial={{ opacity: 0, x: 200 }}
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: 200 }}
-            className="flex items-center gap-8 "
+            className="flex items-center gap-24 "
           >
             <li className="text-base text-textColor hover:text-headingColor duration-100 transition ease-in-out cursor-pointer">
               Home
@@ -91,7 +91,10 @@ const Header = () => {
               >
                 {user && user.email === 'iamhuraira429@gmail.com' && (
                   <Link to={'/createItem'}>
-                    <p className="flex py-2 px-4 items-center gap-3 cursor-pointer hover:bg-slate-100 transition-all duration-100 ease-in-out text-textColor text-base">
+                    <p
+                      className="flex py-2 px-4 items-center gap-3 cursor-pointer hover:bg-slate-100 transition-all duration-100 ease-in-out text-textColor text-base"
+                      onClick={() => setisMenu(false)}
+                    >
                       New Item
                       <MdAdd />
                     </p>
@@ -149,16 +152,28 @@ const Header = () => {
                 </Link>
               )}
               <ul className="flex flex-col  ">
-                <li className=" py-2 px-4 text-base text-textColor hover:bg-slate-100 duration-100 transition ease-in-out cursor-pointer">
+                <li
+                  className=" py-2 px-4 text-base text-textColor hover:bg-slate-100 duration-100 transition ease-in-out cursor-pointer"
+                  onClick={() => setisMenu(false)}
+                >
                   Home
                 </li>
-                <li className=" py-2 px-4 text-base text-textColor hover:bg-slate-100 duration-100 transition ease-in-out cursor-pointer">
+                <li
+                  className=" py-2 px-4 text-base text-textColor hover:bg-slate-100 duration-100 transition ease-in-out cursor-pointer"
+                  onClick={() => setisMenu(false)}
+                >
                   Menu
                 </li>
-                <li className="t py-2 px-4 ext-base text-textColor hover:bg-slate-100 duration-100 transition ease-in-out cursor-pointer">
+                <li
+                  className="t py-2 px-4 ext-base text-textColor hover:bg-slate-100 duration-100 transition ease-in-out cursor-pointer"
+                  onClick={() => setisMenu(false)}
+                >
                   About Us
                 </li>
-                <li className=" py-2 px-4 text-base text-textColor hover:bg-slate-100 duration-100 transition ease-in-out cursor-pointer">
+                <li
+                  className=" py-2 px-4 text-base text-textColor hover:bg-slate-100 duration-100 transition ease-in-out cursor-pointer"
+                  onClick={() => setisMenu(false)}
+                >
                   Service
                 </li>
               </ul>
