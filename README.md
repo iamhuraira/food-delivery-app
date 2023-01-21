@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# Food Delivery One Page Responsive Website Project in ReactJs
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I am developing a food delivery website using ReactJS, Firebase, Redux, Framer motion, Tailwind CSS, and Router. The website utilizes React to make it fully dynamic and uses Google's login service for the login process. Administrators can add new items and manage the website's content through Firebase's cloud database.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### The challenge
 
-### `npm test`
+- Build out the project to the designs From food delivery orignal site Inspiration from youtube and for practice in Recat project.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Links
 
-### `npm run build`
+- Solution URL: [Solution Link](https://github.com/iamhuraira/food-delivery-app)
+- Live Site URL: [Live Site ](https://fooddeliveryapp-b7798.web.app/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## My process
+  1. Developing the frontend of the website using ReactJS, Framer motion and Tailwind CSS for the dynamic and visually pleasing user interface.
+  2. Integrating Firebase for the website's backend and database management.
+  3. Using Redux for managing the state of the application.
+  4. Implementing the routing functionality using Router.
+  5. Enabling Google's login service for the login process.
+  6. Providing administrator access to add new items and manage website content through Firebase's cloud database.
+  7. Continuously testing and optimizing the website for a smooth user experience.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Built with
 
-### `npm run eject`
+- HTML5
+- CSS3
+- Flexbox
+- ReactJs
+- JSX
+- React Redux
+- Firebase
+- Google Authentication
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### What I learned
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+From this project, I have learned:
+ 1. Techniques for building a dynamic and visually pleasing user interface with ReactJS, Framer motion and Tailwind CSS.
+ 2. How to integrate Firebase for backend and database management of the website.
+ 3. How to use Redux to effectively manage the state of the application.
+ 4. Implementation of routing functionality using Router.
+ 5. Enabling third-party login service using Google.
+ 6. Managing website content and providing administrator access through Firebase's cloud database.
+ 7. Best practices for testing and optimizing the website for a smooth user experience.
+ 8. How to work with multiple technologies and integrating them to build a full-fledged web application.
 
-## Learn More
+### Useful resources
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [w3schools](https://www.w3schools.com/) - This helped me with the introduction into the rules of each language.
+- [mozilla developer](https://developer.mozilla.org/) - This helps me with questions.
+- [Youtube] This helps me with tutorials.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Author
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- - Frontend Mentor - [@Huraira429](https://www.frontendmentor.io/profile/Huraira429) -->
+- GitHub - [@iamhuraira](https://github.com/iamhuraira)
+- Linkedin - [@iamhuraira](https://www.linkedin.com/in/iamhuraira)
+<!-- - Twitter - [@i_am_huraira_](https://twitter.com/i_am_huraira_) -->
